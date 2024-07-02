@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B548D8BB2C33D8E2001F1C8C /* DragonQuestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B548D8BA2C33D8E2001F1C8C /* DragonQuestApp.swift */; };
+		B548D8BD2C33D8E2001F1C8C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B548D8BC2C33D8E2001F1C8C /* ContentView.swift */; };
+		B548D8BF2C33D8E3001F1C8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B548D8BE2C33D8E3001F1C8C /* Assets.xcassets */; };
+		B548D8C22C33D8E3001F1C8C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B548D8C12C33D8E3001F1C8C /* Preview Assets.xcassets */; };
+		B548D8CC2C33D8E3001F1C8C /* DragonQuestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B548D8CB2C33D8E3001F1C8C /* DragonQuestTests.swift */; };
+		B548D8D62C33D8E3001F1C8C /* DragonQuestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B548D8D52C33D8E3001F1C8C /* DragonQuestUITests.swift */; };
+		B548D8D82C33D8E3001F1C8C /* DragonQuestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B548D8D72C33D8E3001F1C8C /* DragonQuestUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B548D8C82C33D8E3001F1C8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B548D8AF2C33D8E2001F1C8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B548D8B62C33D8E2001F1C8C;
+			remoteInfo = DragonQuest;
+		};
+		B548D8D22C33D8E3001F1C8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B548D8AF2C33D8E2001F1C8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B548D8B62C33D8E2001F1C8C;
+			remoteInfo = DragonQuest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B548D8B72C33D8E2001F1C8C /* DragonQuest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragonQuest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B548D8BA2C33D8E2001F1C8C /* DragonQuestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonQuestApp.swift; sourceTree = "<group>"; };
+		B548D8BC2C33D8E2001F1C8C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B548D8BE2C33D8E3001F1C8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B548D8C12C33D8E3001F1C8C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B548D8C72C33D8E3001F1C8C /* DragonQuestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragonQuestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B548D8CB2C33D8E3001F1C8C /* DragonQuestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonQuestTests.swift; sourceTree = "<group>"; };
+		B548D8D12C33D8E3001F1C8C /* DragonQuestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragonQuestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B548D8D52C33D8E3001F1C8C /* DragonQuestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonQuestUITests.swift; sourceTree = "<group>"; };
+		B548D8D72C33D8E3001F1C8C /* DragonQuestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonQuestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B548D8B42C33D8E2001F1C8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B548D8C42C33D8E3001F1C8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B548D8CE2C33D8E3001F1C8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B548D8AE2C33D8E2001F1C8C = {
+			isa = PBXGroup;
+			children = (
+				B548D8B92C33D8E2001F1C8C /* DragonQuest */,
+				B548D8CA2C33D8E3001F1C8C /* DragonQuestTests */,
+				B548D8D42C33D8E3001F1C8C /* DragonQuestUITests */,
+				B548D8B82C33D8E2001F1C8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B548D8B82C33D8E2001F1C8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B548D8B72C33D8E2001F1C8C /* DragonQuest.app */,
+				B548D8C72C33D8E3001F1C8C /* DragonQuestTests.xctest */,
+				B548D8D12C33D8E3001F1C8C /* DragonQuestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B548D8B92C33D8E2001F1C8C /* DragonQuest */ = {
+			isa = PBXGroup;
+			children = (
+				B548D8BA2C33D8E2001F1C8C /* DragonQuestApp.swift */,
+				B548D8BC2C33D8E2001F1C8C /* ContentView.swift */,
+				B548D8BE2C33D8E3001F1C8C /* Assets.xcassets */,
+				B548D8C02C33D8E3001F1C8C /* Preview Content */,
+			);
+			path = DragonQuest;
+			sourceTree = "<group>";
+		};
+		B548D8C02C33D8E3001F1C8C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B548D8C12C33D8E3001F1C8C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B548D8CA2C33D8E3001F1C8C /* DragonQuestTests */ = {
+			isa = PBXGroup;
+			children = (
+				B548D8CB2C33D8E3001F1C8C /* DragonQuestTests.swift */,
+			);
+			path = DragonQuestTests;
+			sourceTree = "<group>";
+		};
+		B548D8D42C33D8E3001F1C8C /* DragonQuestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B548D8D52C33D8E3001F1C8C /* DragonQuestUITests.swift */,
+				B548D8D72C33D8E3001F1C8C /* DragonQuestUITestsLaunchTests.swift */,
+			);
+			path = DragonQuestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B548D8B62C33D8E2001F1C8C /* DragonQuest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B548D8DB2C33D8E3001F1C8C /* Build configuration list for PBXNativeTarget "DragonQuest" */;
+			buildPhases = (
+				B548D8B32C33D8E2001F1C8C /* Sources */,
+				B548D8B42C33D8E2001F1C8C /* Frameworks */,
+				B548D8B52C33D8E2001F1C8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DragonQuest;
+			productName = DragonQuest;
+			productReference = B548D8B72C33D8E2001F1C8C /* DragonQuest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B548D8C62C33D8E3001F1C8C /* DragonQuestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B548D8DE2C33D8E3001F1C8C /* Build configuration list for PBXNativeTarget "DragonQuestTests" */;
+			buildPhases = (
+				B548D8C32C33D8E3001F1C8C /* Sources */,
+				B548D8C42C33D8E3001F1C8C /* Frameworks */,
+				B548D8C52C33D8E3001F1C8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B548D8C92C33D8E3001F1C8C /* PBXTargetDependency */,
+			);
+			name = DragonQuestTests;
+			productName = DragonQuestTests;
+			productReference = B548D8C72C33D8E3001F1C8C /* DragonQuestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B548D8D02C33D8E3001F1C8C /* DragonQuestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B548D8E12C33D8E3001F1C8C /* Build configuration list for PBXNativeTarget "DragonQuestUITests" */;
+			buildPhases = (
+				B548D8CD2C33D8E3001F1C8C /* Sources */,
+				B548D8CE2C33D8E3001F1C8C /* Frameworks */,
+				B548D8CF2C33D8E3001F1C8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B548D8D32C33D8E3001F1C8C /* PBXTargetDependency */,
+			);
+			name = DragonQuestUITests;
+			productName = DragonQuestUITests;
+			productReference = B548D8D12C33D8E3001F1C8C /* DragonQuestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B548D8AF2C33D8E2001F1C8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					B548D8B62C33D8E2001F1C8C = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					B548D8C62C33D8E3001F1C8C = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = B548D8B62C33D8E2001F1C8C;
+					};
+					B548D8D02C33D8E3001F1C8C = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = B548D8B62C33D8E2001F1C8C;
+					};
+				};
+			};
+			buildConfigurationList = B548D8B22C33D8E2001F1C8C /* Build configuration list for PBXProject "DragonQuest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B548D8AE2C33D8E2001F1C8C;
+			productRefGroup = B548D8B82C33D8E2001F1C8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B548D8B62C33D8E2001F1C8C /* DragonQuest */,
+				B548D8C62C33D8E3001F1C8C /* DragonQuestTests */,
+				B548D8D02C33D8E3001F1C8C /* DragonQuestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B548D8B52C33D8E2001F1C8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B548D8C22C33D8E3001F1C8C /* Preview Assets.xcassets in Resources */,
+				B548D8BF2C33D8E3001F1C8C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B548D8C52C33D8E3001F1C8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B548D8CF2C33D8E3001F1C8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B548D8B32C33D8E2001F1C8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B548D8BD2C33D8E2001F1C8C /* ContentView.swift in Sources */,
+				B548D8BB2C33D8E2001F1C8C /* DragonQuestApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B548D8C32C33D8E3001F1C8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B548D8CC2C33D8E3001F1C8C /* DragonQuestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B548D8CD2C33D8E3001F1C8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B548D8D82C33D8E3001F1C8C /* DragonQuestUITestsLaunchTests.swift in Sources */,
+				B548D8D62C33D8E3001F1C8C /* DragonQuestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B548D8C92C33D8E3001F1C8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B548D8B62C33D8E2001F1C8C /* DragonQuest */;
+			targetProxy = B548D8C82C33D8E3001F1C8C /* PBXContainerItemProxy */;
+		};
+		B548D8D32C33D8E3001F1C8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B548D8B62C33D8E2001F1C8C /* DragonQuest */;
+			targetProxy = B548D8D22C33D8E3001F1C8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B548D8D92C33D8E3001F1C8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B548D8DA2C33D8E3001F1C8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B548D8DC2C33D8E3001F1C8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DragonQuest/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DragonQuest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B548D8DD2C33D8E3001F1C8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DragonQuest/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DragonQuest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B548D8DF2C33D8E3001F1C8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DragonQuestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DragonQuest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DragonQuest";
+			};
+			name = Debug;
+		};
+		B548D8E02C33D8E3001F1C8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DragonQuestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DragonQuest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DragonQuest";
+			};
+			name = Release;
+		};
+		B548D8E22C33D8E3001F1C8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DragonQuestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DragonQuest;
+			};
+			name = Debug;
+		};
+		B548D8E32C33D8E3001F1C8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DragonQuestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DragonQuest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B548D8B22C33D8E2001F1C8C /* Build configuration list for PBXProject "DragonQuest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B548D8D92C33D8E3001F1C8C /* Debug */,
+				B548D8DA2C33D8E3001F1C8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B548D8DB2C33D8E3001F1C8C /* Build configuration list for PBXNativeTarget "DragonQuest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B548D8DC2C33D8E3001F1C8C /* Debug */,
+				B548D8DD2C33D8E3001F1C8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B548D8DE2C33D8E3001F1C8C /* Build configuration list for PBXNativeTarget "DragonQuestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B548D8DF2C33D8E3001F1C8C /* Debug */,
+				B548D8E02C33D8E3001F1C8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B548D8E12C33D8E3001F1C8C /* Build configuration list for PBXNativeTarget "DragonQuestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B548D8E22C33D8E3001F1C8C /* Debug */,
+				B548D8E32C33D8E3001F1C8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B548D8AF2C33D8E2001F1C8C /* Project object */;
+}
