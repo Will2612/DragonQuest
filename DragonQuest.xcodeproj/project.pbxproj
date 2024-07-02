@@ -17,6 +17,9 @@
 		B548D8E82C33DD5F001F1C8C /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B548D8E72C33DD5F001F1C8C /* GameScene.swift */; };
 		B548D8EA2C33DFA3001F1C8C /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B548D8E92C33DFA3001F1C8C /* LandingView.swift */; };
 		B548D8ED2C33E437001F1C8C /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = B548D8EC2C33E437001F1C8C /* Map.swift */; };
+		BE1008632C3459A50076B0BC /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1008622C3459A50076B0BC /* Character.swift */; };
+		BE1008652C345A1F0076B0BC /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1008642C345A1F0076B0BC /* Profile.swift */; };
+		BE1008672C345A560076B0BC /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1008662C345A560076B0BC /* Enemy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +53,9 @@
 		B548D8E72C33DD5F001F1C8C /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		B548D8E92C33DFA3001F1C8C /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
 		B548D8EC2C33E437001F1C8C /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		BE1008622C3459A50076B0BC /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		BE1008642C345A1F0076B0BC /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		BE1008662C345A560076B0BC /* Enemy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +155,7 @@
 		B548D8E52C33DBD3001F1C8C /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				BE1008642C345A1F0076B0BC /* Profile.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -173,6 +180,7 @@
 		B548D8EE2C33E49E001F1C8C /* Character */ = {
 			isa = PBXGroup;
 			children = (
+				BE1008622C3459A50076B0BC /* Character.swift */,
 			);
 			path = Character;
 			sourceTree = "<group>";
@@ -180,6 +188,7 @@
 		B548D8EF2C33E4A7001F1C8C /* Enemy */ = {
 			isa = PBXGroup;
 			children = (
+				BE1008662C345A560076B0BC /* Enemy.swift */,
 			);
 			path = Enemy;
 			sourceTree = "<group>";
@@ -317,6 +326,9 @@
 				B548D8ED2C33E437001F1C8C /* Map.swift in Sources */,
 				B548D8EA2C33DFA3001F1C8C /* LandingView.swift in Sources */,
 				B548D8BD2C33D8E2001F1C8C /* GameView.swift in Sources */,
+				BE1008652C345A1F0076B0BC /* Profile.swift in Sources */,
+				BE1008672C345A560076B0BC /* Enemy.swift in Sources */,
+				BE1008632C3459A50076B0BC /* Character.swift in Sources */,
 				B548D8BB2C33D8E2001F1C8C /* DragonQuest.swift in Sources */,
 				B548D8E82C33DD5F001F1C8C /* GameScene.swift in Sources */,
 			);
