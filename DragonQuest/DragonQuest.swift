@@ -9,16 +9,13 @@ import SwiftUI
 
 @main
 struct DragonQuest: App {
-    @State var scene: GameScene = .landing
-    
+    @StateObject private var gameManager = GameManager()
+
     var body: some Scene {
         WindowGroup {
-            switch scene {
-            case .landing:
-                LandingView()
-            case .game:
-                GameView()
-            }
+            ContentView()
+                .environmentObject(gameManager)
+                .environment(\.colorScheme, .dark)
         }
     }
 }

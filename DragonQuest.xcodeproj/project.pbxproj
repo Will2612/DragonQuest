@@ -20,6 +20,12 @@
 		BE1008632C3459A50076B0BC /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1008622C3459A50076B0BC /* Character.swift */; };
 		BE1008652C345A1F0076B0BC /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1008642C345A1F0076B0BC /* Profile.swift */; };
 		BE1008672C345A560076B0BC /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1008662C345A560076B0BC /* Enemy.swift */; };
+		BED17FCF2C3A71B300FAE9E2 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED17FCE2C3A71B300FAE9E2 /* GameManager.swift */; };
+		BED17FD12C3A757B00FAE9E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED17FD02C3A757B00FAE9E2 /* ContentView.swift */; };
+		BED17FD32C3A7A9100FAE9E2 /* DayTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED17FD22C3A7A9100FAE9E2 /* DayTime.swift */; };
+		BED17FD52C3A9BE700FAE9E2 /* InfoSpeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED17FD42C3A9BE700FAE9E2 /* InfoSpeed.swift */; };
+		BED17FD72C3AA13000FAE9E2 /* WorldMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED17FD62C3AA13000FAE9E2 /* WorldMapView.swift */; };
+		BED17FD92C3AA13900FAE9E2 /* TownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED17FD82C3AA13900FAE9E2 /* TownView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +62,12 @@
 		BE1008622C3459A50076B0BC /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		BE1008642C345A1F0076B0BC /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		BE1008662C345A560076B0BC /* Enemy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		BED17FCE2C3A71B300FAE9E2 /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		BED17FD02C3A757B00FAE9E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BED17FD22C3A7A9100FAE9E2 /* DayTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayTime.swift; sourceTree = "<group>"; };
+		BED17FD42C3A9BE700FAE9E2 /* InfoSpeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoSpeed.swift; sourceTree = "<group>"; };
+		BED17FD62C3AA13000FAE9E2 /* WorldMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldMapView.swift; sourceTree = "<group>"; };
+		BED17FD82C3AA13900FAE9E2 /* TownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TownView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				B548D8BA2C33D8E2001F1C8C /* DragonQuest.swift */,
+				BED17FD02C3A757B00FAE9E2 /* ContentView.swift */,
 				B548D8E62C33DC6D001F1C8C /* UI */,
 				B548D8E52C33DBD3001F1C8C /* Profile */,
 				B548D8E42C33DBC8001F1C8C /* Content */,
@@ -148,6 +161,9 @@
 				B548D8EE2C33E49E001F1C8C /* Character */,
 				B548D8EB2C33E319001F1C8C /* Map */,
 				B548D8E72C33DD5F001F1C8C /* GameScene.swift */,
+				BED17FD22C3A7A9100FAE9E2 /* DayTime.swift */,
+				BED17FD42C3A9BE700FAE9E2 /* InfoSpeed.swift */,
+				BED17FCE2C3A71B300FAE9E2 /* GameManager.swift */,
 			);
 			path = Content;
 			sourceTree = "<group>";
@@ -165,6 +181,8 @@
 			children = (
 				B548D8E92C33DFA3001F1C8C /* LandingView.swift */,
 				B548D8BC2C33D8E2001F1C8C /* GameView.swift */,
+				BED17FD62C3AA13000FAE9E2 /* WorldMapView.swift */,
+				BED17FD82C3AA13900FAE9E2 /* TownView.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -324,10 +342,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				B548D8ED2C33E437001F1C8C /* Map.swift in Sources */,
+				BED17FCF2C3A71B300FAE9E2 /* GameManager.swift in Sources */,
+				BED17FD32C3A7A9100FAE9E2 /* DayTime.swift in Sources */,
 				B548D8EA2C33DFA3001F1C8C /* LandingView.swift in Sources */,
+				BED17FD72C3AA13000FAE9E2 /* WorldMapView.swift in Sources */,
 				B548D8BD2C33D8E2001F1C8C /* GameView.swift in Sources */,
 				BE1008652C345A1F0076B0BC /* Profile.swift in Sources */,
 				BE1008672C345A560076B0BC /* Enemy.swift in Sources */,
+				BED17FD92C3AA13900FAE9E2 /* TownView.swift in Sources */,
+				BED17FD52C3A9BE700FAE9E2 /* InfoSpeed.swift in Sources */,
+				BED17FD12C3A757B00FAE9E2 /* ContentView.swift in Sources */,
 				BE1008632C3459A50076B0BC /* Character.swift in Sources */,
 				B548D8BB2C33D8E2001F1C8C /* DragonQuest.swift in Sources */,
 				B548D8E82C33DD5F001F1C8C /* GameScene.swift in Sources */,
@@ -499,7 +523,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -531,7 +555,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
