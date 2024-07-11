@@ -14,25 +14,30 @@ struct LandingView: View {
     var body: some View {
         VStack {
             Text("Dragon Quest III")
-                .font(.title)
-                .padding(.bottom, 40)
-            Button("START NEW GAME") {
-                gameManager.start()
+                .font(.largeTitle)
+                .padding(.bottom, 50)
+            
+            VStack(spacing: 10) {
+                Button("START NEW GAME") {
+                    gameManager.start()
+                }
+                Button("LOAD GAME") {
+                    
+                }
             }
-            Button("LOAD GAME") {
-
-            }
-            VStack {
+            .padding(.bottom, 20)
+            
+            HStack {
                 Text("SPEED")
-                    .foregroundStyle(.blue)
-                Picker("", selection: $infoSpeed) {
+                    .foregroundStyle(.secondary)
+                Picker("SPEED", selection: $infoSpeed) {
                     Text("Slow").tag(InfoSpeed.slow)
                     Text("Normal").tag(InfoSpeed.normal)
                     Text("Fast").tag(InfoSpeed.fast)
                 }
                 .pickerStyle(.automatic)
-                
             }
+            .tint(.secondary)
         }
     }
 }

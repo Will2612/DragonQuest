@@ -11,7 +11,18 @@ struct WorldMapView: View {
     @Binding var dayTime: DayTime
     
     var body: some View {
-        dayTime.icon
+        ZStack(alignment: .topLeading) {
+            Color.clear
+            VStack {
+                dayTime.icon
+                Text("World Map")
+                Button("Time passed") {
+                    withAnimation {
+                        dayTime.next()
+                    }
+                }
+            }
+        }
     }
 }
 
