@@ -26,6 +26,7 @@
 		BED17FD52C3A9BE700FAE9E2 /* InfoSpeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED17FD42C3A9BE700FAE9E2 /* InfoSpeed.swift */; };
 		BED17FD72C3AA13000FAE9E2 /* WorldMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED17FD62C3AA13000FAE9E2 /* WorldMapView.swift */; };
 		BED17FD92C3AA13900FAE9E2 /* TownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED17FD82C3AA13900FAE9E2 /* TownView.swift */; };
+		BED1804B2C4025EB00FAE9E2 /* HUDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED1804A2C4025EB00FAE9E2 /* HUDView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		BED17FD42C3A9BE700FAE9E2 /* InfoSpeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoSpeed.swift; sourceTree = "<group>"; };
 		BED17FD62C3AA13000FAE9E2 /* WorldMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldMapView.swift; sourceTree = "<group>"; };
 		BED17FD82C3AA13900FAE9E2 /* TownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TownView.swift; sourceTree = "<group>"; };
+		BED1804A2C4025EB00FAE9E2 /* HUDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUDView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +185,7 @@
 				B548D8BC2C33D8E2001F1C8C /* GameView.swift */,
 				BED17FD62C3AA13000FAE9E2 /* WorldMapView.swift */,
 				BED17FD82C3AA13900FAE9E2 /* TownView.swift */,
+				BED1804A2C4025EB00FAE9E2 /* HUDView.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -274,7 +277,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1540;
+				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
 					B548D8B62C33D8E2001F1C8C = {
@@ -344,6 +347,7 @@
 				B548D8ED2C33E437001F1C8C /* Map.swift in Sources */,
 				BED17FCF2C3A71B300FAE9E2 /* GameManager.swift in Sources */,
 				BED17FD32C3A7A9100FAE9E2 /* DayTime.swift in Sources */,
+				BED1804B2C4025EB00FAE9E2 /* HUDView.swift in Sources */,
 				B548D8EA2C33DFA3001F1C8C /* LandingView.swift in Sources */,
 				BED17FD72C3AA13000FAE9E2 /* WorldMapView.swift in Sources */,
 				B548D8BD2C33D8E2001F1C8C /* GameView.swift in Sources */,
@@ -577,7 +581,6 @@
 		B548D8DF2C33D8E3001F1C8C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -596,7 +599,6 @@
 		B548D8E02C33D8E3001F1C8C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -615,7 +617,6 @@
 		B548D8E22C33D8E3001F1C8C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -632,7 +633,6 @@
 		B548D8E32C33D8E3001F1C8C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;

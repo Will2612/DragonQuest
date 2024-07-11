@@ -8,9 +8,9 @@
 import SwiftUI
 
 enum InfoSpeed: Int {
-    case slow = 1
-    case normal = 2
-    case fast = 3
+    case slow = 10
+    case normal = 20
+    case fast = 30
 }
 
 struct InfoSpeedKey: EnvironmentKey {
