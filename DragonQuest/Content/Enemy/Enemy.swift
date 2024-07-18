@@ -7,6 +7,13 @@
 
 import Foundation
 
-protocol Enemy: Codable {
+protocol Enemy: Codable, Identifiable {
     var name: String { get set }
+    var id: UUID { get }
+}
+
+extension Enemy {
+    var id: UUID {
+        UUID()
+    }
 }

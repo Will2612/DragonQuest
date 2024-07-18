@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B50E0B942C48F8A200A39683 /* Battle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50E0B932C48F8A200A39683 /* Battle.swift */; };
+		B50E0B962C48F92100A39683 /* BattleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50E0B952C48F92100A39683 /* BattleView.swift */; };
 		B548D8BB2C33D8E2001F1C8C /* DragonQuest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B548D8BA2C33D8E2001F1C8C /* DragonQuest.swift */; };
 		B548D8BD2C33D8E2001F1C8C /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B548D8BC2C33D8E2001F1C8C /* GameView.swift */; };
 		B548D8BF2C33D8E3001F1C8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B548D8BE2C33D8E3001F1C8C /* Assets.xcassets */; };
@@ -47,6 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B50E0B932C48F8A200A39683 /* Battle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Battle.swift; sourceTree = "<group>"; };
+		B50E0B952C48F92100A39683 /* BattleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleView.swift; sourceTree = "<group>"; };
 		B548D8B72C33D8E2001F1C8C /* DragonQuest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragonQuest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B548D8BA2C33D8E2001F1C8C /* DragonQuest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonQuest.swift; sourceTree = "<group>"; };
 		B548D8BC2C33D8E2001F1C8C /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
@@ -166,6 +170,7 @@
 				BED17FD22C3A7A9100FAE9E2 /* DayTime.swift */,
 				BED17FD42C3A9BE700FAE9E2 /* InfoSpeed.swift */,
 				BED17FCE2C3A71B300FAE9E2 /* GameManager.swift */,
+				B50E0B932C48F8A200A39683 /* Battle.swift */,
 			);
 			path = Content;
 			sourceTree = "<group>";
@@ -186,6 +191,7 @@
 				BED17FD62C3AA13000FAE9E2 /* WorldMapView.swift */,
 				BED17FD82C3AA13900FAE9E2 /* TownView.swift */,
 				BED1804A2C4025EB00FAE9E2 /* HUDView.swift */,
+				B50E0B952C48F92100A39683 /* BattleView.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -347,6 +353,8 @@
 				B548D8ED2C33E437001F1C8C /* Map.swift in Sources */,
 				BED17FCF2C3A71B300FAE9E2 /* GameManager.swift in Sources */,
 				BED17FD32C3A7A9100FAE9E2 /* DayTime.swift in Sources */,
+				B50E0B962C48F92100A39683 /* BattleView.swift in Sources */,
+				B50E0B942C48F8A200A39683 /* Battle.swift in Sources */,
 				BED1804B2C4025EB00FAE9E2 /* HUDView.swift in Sources */,
 				B548D8EA2C33DFA3001F1C8C /* LandingView.swift in Sources */,
 				BED17FD72C3AA13000FAE9E2 /* WorldMapView.swift in Sources */,
