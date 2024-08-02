@@ -11,7 +11,20 @@ struct TownView: View {
     @Binding var dayTime: DayTime
     
     var body: some View {
-        dayTime.icon
+        VStack {
+            ZStack(alignment: .topLeading) {
+                Color.clear
+                VStack {
+                    dayTime.icon
+                    Text("Town")
+                }
+            }
+            Button("Time passed") {
+                withAnimation {
+                    dayTime.next()
+                }
+            }
+        }
     }
 }
 

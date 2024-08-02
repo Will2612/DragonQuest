@@ -14,6 +14,12 @@ struct HUDView: View {
     @State private var timerCancellable: AnyCancellable?
     
     let text: String
+    let showBorder: Bool
+    
+    init(text: String, showBorder: Bool = true) {
+        self.text = text
+        self.showBorder = showBorder
+    }
     
     var body: some View {
         Text(String(text.prefix(currentIndex)))
@@ -22,6 +28,7 @@ struct HUDView: View {
             .background(
                 RoundedRectangle(cornerSize: CGSize(width: 8, height: 8))
                 .stroke(Color.primary, lineWidth: 1)
+                .opacity(showBorder ? 1 : 0)
             )
             .onAppear {
                 startTimer()
@@ -49,6 +56,10 @@ struct HUDView: View {
     private func stopTimer() {
         timerCancellable?.cancel()
         timerCancellable = nil
+    }
+    
+    func showBorder(_ shouldShow: Bool = true) -> Self {
+        return HUDView(text: text, showBorder: shouldShow)
     }
 }
 
