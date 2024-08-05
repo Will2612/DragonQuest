@@ -19,9 +19,9 @@ struct TownView: View {
                     Text("Town")
                 }
             }
-            Button("Time passed") {
+            Button("Rest in a INN") {
                 withAnimation {
-                    dayTime.next()
+                    dayTime = .day
                 }
             }
         }

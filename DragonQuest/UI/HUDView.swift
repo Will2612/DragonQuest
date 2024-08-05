@@ -64,10 +64,12 @@ struct HUDView: View {
 }
 
 #Preview {
-    HUDView(text: "In the ancient kingdom of Eldoria, brave heroes embarked on epic quests to defeat the dark forces.")
-        .infoSpeed(.slow)
-    HUDView(text: "In the ancient kingdom of Eldoria, brave heroes embarked on epic quests to defeat the dark forces.")
-        .infoSpeed(.normal)
-    HUDView(text: "In the ancient kingdom of Eldoria, brave heroes embarked on epic quests to defeat the dark forces.")
-        .infoSpeed(.fast)
+    VStack {
+        HUDView(text: "In the ancient kingdom of Eldoria, brave heroes embarked on epic quests to defeat the dark forces.")
+            .infoSpeed(.slow)
+        HUDView(text: "In the ancient kingdom of Eldoria, brave heroes embarked on epic quests to defeat the dark forces.")
+            .infoSpeed(.normal)
+        HUDView(text: "In the ancient kingdom of Eldoria, brave heroes embarked on epic quests to defeat the dark forces.")
+            .infoSpeed(.fast)
+    }
 }

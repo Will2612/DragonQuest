@@ -16,7 +16,7 @@ struct WorldMapView: View {
             VStack {
                 dayTime.icon
                 Text("World Map")
-                Button("Time passed") {
+                Button("Take 30 steps") {
                     withAnimation {
                         dayTime.next()
                     }
